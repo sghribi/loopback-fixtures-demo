@@ -1,0 +1,11 @@
+{
+  "postgresql": {
+    "host": "localhost",
+    "port": 5433,
+    "database": "loopback_fixtures_demo",
+    "password": "loopback_fixtures_demo",
+    "name": "postgresql",
+    "user": "loopback_fixtures_demo",
+    "connector": "loopback-connector-postgresql"
+  }
+}

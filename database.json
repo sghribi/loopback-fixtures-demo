@@ -1,0 +1,16 @@
+{
+  "default": "dev",
+
+  "dev": {
+    "driver": "pg",
+    "name": "loopback_demo_fixtures",
+    "connector": "loopback-connector-postgresql",
+    "host": "localhost",
+    "port": 5433,
+    "database": "loopback_fixtures_demo",
+    "user": "loopback_fixtures_demo",
+    "password": "loopback_fixtures_demo"
+  },
+
+  "sql-file" : true
+}

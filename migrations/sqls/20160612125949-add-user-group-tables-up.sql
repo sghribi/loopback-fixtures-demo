@@ -1,0 +1,13 @@
+CREATE TABLE "group" (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(256) NOT NULL
+);
+
+CREATE TABLE "user" (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(256) NOT NULL,
+  email VARCHAR(256) NOT NULL,
+  birthdate DATE NOT NULL,
+  favoritenumber INTEGER NOT NULL,
+  groupId INTEGER NOT NULL REFERENCES "group"(id) ON DELETE CASCADE
+);
