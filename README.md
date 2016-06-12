@@ -1,7 +1,7 @@
 loopback-fixtures-demo
 ======================
 
-Demo project for https://github.com/sghribi/loopback-fixtures with **PostgreSQL** database
+Demo project for https://github.com/sghribi/loopback-fixtures with **PostgreSQL** database on port 5433 (/!\)
 
 Schema
 ------
@@ -11,8 +11,9 @@ Schema
 
 
 ``` bash
+git clone https://github.com/sghribi/loopback-fixtures
 git clone https://github.com/sghribi/loopback-fixtures-demo
-npm install
+cd loopback-fixtures-demo && npm install
 ```
 
 In the PostgreSQL CLI, run :
