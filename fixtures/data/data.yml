@@ -1,3 +1,11 @@
 Group:
-  group1:
-    name: "Chargé depuis les fixtures"
+  group{1..10}:
+    name: "Groupe {@} depuis les fixtures"
+
+User:
+  user{1..10}:
+    name: "User {@}"
+    groupId: @group{@}
+    email: "Yolo"
+    birthDate: "2016-01-01"
+    favoriteNumber: "(function() { return Math.round(Math.random()*1000);})()"
