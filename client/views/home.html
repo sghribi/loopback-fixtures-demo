@@ -1,4 +1,12 @@
 <div class="row">
+    <div class="col-xs-12">
+        <h2>Categories ({{ categories.length}}) :</h2>
+        <ul ng-repeat="category in categories">
+            <li>Id : {{ category.id }}</li>
+            <li>Name : {{ category.name }}</li>
+            <li ng-if="category.parent.id">Parent : {{ category.parent.name }}</li>
+        </ul>
+    </div>
     <div class="col-xs-6">
         <h2>Groups ({{ groups.length}}) :</h2>
         <ul ng-repeat="group in groups">

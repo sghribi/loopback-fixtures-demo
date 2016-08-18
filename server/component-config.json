@@ -3,6 +3,6 @@
     "mountPath": "/explorer"
   },
   "loopback-fixtures": {
-    "autoLoad": true
+    "autoLoad": false
   }
 }

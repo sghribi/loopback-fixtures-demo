@@ -20,5 +20,9 @@
   "Group": {
     "dataSource": "postgresql",
     "public": true
+  },
+  "Category": {
+    "dataSource": "postgresql",
+    "public": true
   }
 }
